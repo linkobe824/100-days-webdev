@@ -1,0 +1,20 @@
+body {
+  margin: 50px;
+}
+
+.first-para {
+  color: rgb(127, 255, 202);
+  font-weight: bold;
+  font-size: 52px; 
+}
+
+img {
+  height: 200px;
+  width: auto;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
