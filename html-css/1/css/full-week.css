@@ -1,15 +1,15 @@
 header {
-    margin-bottom: 64px;
+  margin-bottom: 64px;
 }
 
 h1 {
   font-size: 48px;
   color: rgb(53, 126, 53);
-  margin: 12px 0;
+  margin: 0;
 }
 
 #description {
-    margin-bottom: 36px;
+  margin: 12px 0;
 }
 
 /* header p {
@@ -17,11 +17,13 @@ h1 {
 } */
 
 a {
+  display: inline-block;
   background-color: rgb(167, 1, 78);
   color: white;
   border-radius: 4px;
   font-size: 24px;
   padding: 12px 48px;
+
 }
 
 a:hover {
@@ -41,18 +43,19 @@ li {
   margin: 32px;
   background-color: rgb(223, 136, 124);
   border-radius: 6px;
+  box-shadow: 1px 1px 4px rgba( 0, 0, 0, 0.2);
 }
 
 li h2 {
-    color: rgb(78, 13, 5);
-    font-family: 'Oswald', sans-serif;
+  color: rgb(78, 13, 5);
+  font-family: "Oswald", sans-serif;
 }
 
 main p {
-    margin: 12px;
-    color: rgb(17, 29, 22);
+  margin: 12px;
+  color: rgb(17, 29, 22);
 }
 
 .highlight-goal {
-    background-color: rgb(216, 85, 67);
+  background-color: rgb(216, 85, 67);
 }
