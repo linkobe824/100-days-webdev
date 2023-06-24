@@ -1,1 +1,29 @@
+h1 {
+    font-size: 48px;
+    color: rgb(53, 126, 53);
+}
 
+a {
+    background-color: rgb(167, 1, 78);
+    color: white;
+    border-radius: 4px;
+    font-size: 24px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+a:hover {
+    background-color: rgb(180, 12, 90);
+    color: white;
+}
+
+
+ol {
+    list-style: none;
+}
+
+li {
+    margin: 32px;
+    background-color: rgb(223, 136, 124);
+    border-radius: 6px;
+}
