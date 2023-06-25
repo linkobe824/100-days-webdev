@@ -4,10 +4,13 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>HTML & CSS Basics Summary</title>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <header>
@@ -22,7 +25,7 @@
         purposes. Use CSS for that instead!
       </p>
       <ul>
-        <li>
+        <li class="main-highlight-list">
           <p>HTML uses "elements" to describe (annotate) content</p>
         </li>
         <li>
@@ -31,10 +34,10 @@
             closing tag
           </p>
         </li>
-        <li>
+        <li class="main-highlight-list">
           <p>You can also have void (empty) elements like images</p>
         </li>
-        <li>
+        <li class="main-highlight-list">
           <p>You can also configure elements with attributes</p>
         </li>
         <li>
@@ -46,32 +49,48 @@
       </ul>
       <p>
         Learn more about all available HTML elements on
-        <a href="">the MDN HTML element reference</a>
+        <a class="main-reference-link" href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element"
+          >the MDN HTML element reference</a
+        >
       </p>
       <h2>CSS Summary</h2>
       <p>CSS (Cascading Style Sheets) is used for styling your page content.</p>
       <ul>
         <li>
-            <p>Styles are assigned via propery-value pairs</p>
+          <p>Styles are assigned via propery-value pairs</p>
         </li>
         <li>
-            <p>You can assign styles via the "style" attribute</p>
+          <p>You can assign styles via the "style" attribute</p>
+        </li>
+        <li class="main-highlight-list">
+          <p>
+            To avoid code duplication, you typically use global styles (e.g. via
+            the "style" element) instead
+          </p>
         </li>
         <li>
-            <p>To avoid code duplication, you typically use global styles (e.g. via the "style" element) instead</p>
+          <p>
+            Alternatively, you can work with external stylesheet files which you
+            "link" to
+          </p>
         </li>
-        <li>
-            <p>Alternatively, you can work with external stylesheet files which you "link" to</p>
+        <li class="main-highlight-list">
+          <p>
+            When working with CSS, concepts like inheritance, "specificity" and
+            the "box model" should be understood
+          </p>
         </li>
-        <li>
-            <p>When working with CSS, concepts like inheritance, "specificity" and the "box model" should be understood</p>
-        </li>
-      </ol>
-      <p>Learn more about all acailable CSS properties and values on <a href="">the MDN CSS propery reference</a>.</p>
+      </ul>
+      <p>
+        Learn more about all available CSS properties and values on
+        <a class="main-reference-link" href="https://developer.mozilla.org/en-US/docs/Web/CSS/Reference"
+          >the MDN CSS propery reference</a
+        >.
+      </p>
     </main>
     <footer>
-        <a href="">Download PDF Summary</a>
-        <p>(c) Academind GmbH</p>
+      <a class="download" href="./files/html-css-basics-summary.pdf" download>Download PDF Summary</a>
+      <p>(c) Academind GmbH</p>
     </footer>
   </body>
 </html>
