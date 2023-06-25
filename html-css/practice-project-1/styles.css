@@ -2,7 +2,6 @@ body {
     margin: 50px;
     font-family: 'Ubuntu', sans-serif;
     background: rgb(239, 229, 253);
-    width: 770px;
 }
 
 header {
@@ -22,20 +21,21 @@ img {
 
 main {
     background-color: rgb(140, 72, 250);
+    width: 700px;
     color: white;
     border-radius: 10px;
-    padding: 40px 25px;
+    padding: 32px;
+    margin: auto;
     margin-bottom: 30px;
     box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
 }
 
 ul {
-    padding-left: 0;
-}
-
-li {
+    padding: 0;
+    margin: 0;
     list-style: none;
 }
+
 
 li > p {
     padding-left: 10px;
@@ -55,12 +55,8 @@ li > p {
     border-radius: 3px;
 }
 
-.main-reference-link:hover {
-    text-decoration: underline;
-}
-
-span {
-    font-weight: bold;
+.main-reference-link:hover, .main-reference-link:active{
+    background-color: rgb(236, 200, 40);
 }
 
 footer {
