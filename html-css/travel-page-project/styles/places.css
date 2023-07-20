@@ -7,9 +7,32 @@ header {
   position: static;
 }
 
+header nav a{
+  color: rgb(183, 230, 235);
+}
+
+header nav a:hover {
+  background-color: rgb(183, 230, 235);
+  color: rgb(59, 59, 59);
+}
+
+.page-logo a {
+  color: rgb(183, 230, 235);
+}
+
+
+
 main ul {
-  width: 800px;
+  width: 1200px;
   margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  margin-bottom: 48px;
+}
+
+main ul li:nth-child(3){
+  grid-column: 1/3;
 }
 
 main li {
@@ -34,6 +57,10 @@ main li img {
   justify-content: space-between;
 }
 
+.item-content h2 {
+  margin: 0;
+}
+
 .actions {
   text-align: right;
 
@@ -47,5 +74,10 @@ main li img {
 
 .actions a:hover {
   background-color: rgb(235, 253, 255);
+}
+
+.actions a::after {
+  content: "\2192";
+  font-size: 25px;
 }
 
